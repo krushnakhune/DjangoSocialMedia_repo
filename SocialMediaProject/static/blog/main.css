@@ -1,0 +1,48 @@
+body{
+    margin-top:90px;
+    background-color:lightcyan;
+}
+h1,h2,h3,h4,h5,h6{
+ color:#444444;
+}
+.content-section{
+ background:#ffffff;
+ padding:10px 20px;
+ border:2px solid coral;
+ border-radius:25px;
+ margin-bottom:20px;
+}
+.article-title{
+color:#444444;
+}
+a.article-title{
+color:#438bca;
+text-decoration:none;
+}
+.article-content{
+white-space:pre-line;
+}
+.article-metadata{
+padding-bottom:1px;
+margin-bottom:4px;
+border-bottom:1px solid chartreuse;
+}
+.article-metadata a:hover{
+color:red;
+text-decoration:none;
+}
+ul.list-group{
+border:2px solid blue;
+border-radius:3px;
+}
+ul li.list-group-item:hover{
+color:white;
+font-size:20px;
+}
+.bg-steel{
+background-color:#444444;
+}
+.site-header .navbar-nav .nav-link:hover{
+color:#ffffff;
+background-color:black;
+}

@@ -1,0 +1,20 @@
+{% extends 'blog/base.html' %}
+<body style="background-color:lightblue">
+    {% block content %}
+        <style>
+            .box{
+            border:2px solid darkcyan;
+            border-radius:10px;
+            }
+        </style>
+        <h2 class="text-center text-primary">About Us</h2><hr/>
+        <div class="row text-center ml-1">
+            <div class="col-md-8 box">
+
+            </div>
+            <div class="col-md-4">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30065.093247753914!2d75.98648034362188!3d19.621454577510985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdaf225317c0485%3A0x54c7d36b12b72ea!2sPanewadi%2C%20Maharashtra%20431207!5e0!3m2!1sen!2sin!4v1582840680822!5m2!1sen!2sin" width="200" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+        </div>
+    {% endblock %}
+</body>
